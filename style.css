@@ -89,6 +89,10 @@ h1 {
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .nav-item {
   /* margin: 5px; */
   font-family: 'Lato', sans-serif;
@@ -388,23 +392,49 @@ h1 {
 
 }
 
+
 .gallery-container {
-  max-width: 700px;
-  margin: 20 auto;
-  padding-left: 600px;
+  max-width: 100vw;
+  margin-left: auto;
   line-height: 1.5;
   font-size: 20px;
-
 }
+
+.gallery-image {
+  width: 100vw;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+@media(min-width: 768px) {
+  .gallery-container {
+    max-width:50vw;
+  }
+
+  .gallery-image {
+    width: 50vw;
+  }
+}
+
+
+ 
 
 .gallery-container2 {
-  max-width: 700px;
-  margin: 20 auto;
-
+  max-width: 100vw;
+  margin-right: auto;
   line-height: 1.5;
   font-size: 20px;
 
 }
+
+@media(min-width: 768px) {
+  .gallery-container2 {
+    max-width:50vw;
+  }
+}
+
+ 
+
 
 .row2 {
 
@@ -441,48 +471,48 @@ h1 {
 
 .first-div {
   background-color: #1d4936;
-  height: 400px;
+  min-height: 400px;
   position: relative;
 }
 
 .second-div {
   background-color: #92909088;
-  height: 400px;
+  min-height: 400px;
 }
 
 .third-div {
   background-color: #ffffff;
-  height: 600px;
+  min-height: 600px;
 }
 
 .third-div {
   background-color: #fbfdfe;
-  height: 580px;
+  min-height: 580px;
 }
 
 .fourth-div {
   background-color: #92909088;
-  height: 300px;
+  min-height: 300px;
 }
 
 .fivth-div {
   background-color: #ffffff;
-  height: 900px;
+  min-height: 900px;
 }
 
 .sixth-div {
   background-color: #92909088;
-  height: 500px;
+  min-height: 500px;
 }
 
 .seventh-div {
   background-color: #ffffff;
-  height: 300px;
+  min-height: 300px;
 }
 
 .eigth-div {
   background-color: #92909088;
-  height: 300px;
+  min-height: 300px;
 }
 
 body2 {
