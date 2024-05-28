@@ -38,6 +38,8 @@ body {
   display: block;
 }
 
+.underlined {text-decoration: underline;}
+
 
 .home-page-button {
   color: white;
@@ -58,6 +60,14 @@ h1 {
 
 }
 
+
+.h1small{
+  color: #005C46;
+   font-weight: bold;
+  text-align: center;
+  font-size: 4vh;
+  padding-bottom: 1vh;
+}
 .corner {
   margin: 0;
   float: left;
@@ -177,7 +187,7 @@ h1 {
 }
 
 .image-padding {
-  padding-top: 90px;
+  padding-top: 25dp;
 }
 
 .full-width {
@@ -195,6 +205,11 @@ h1 {
 
 .align-center {
   align-items: center;
+}
+
+.h2{
+  display: flex;
+  text-align: center;
 }
 
 .padding-shift{
@@ -487,7 +502,8 @@ h1 {
 }
 
 .gap-small {
-  gap: 2rem;
+  gap: 6rem;
+  padding-right: 5vh;
 }
 
 @media(min-width: 768px) {
@@ -604,12 +620,16 @@ h1 {
 
 .third-div {
   background-color: #ffffff;
+  gap: 6rem;
+  padding-right: 5vh;
   min-height: 600px;
 }
 
 .third-div {
   background-color: #fbfdfe;
   min-height: 580px;
+  gap: 6rem;
+  padding-left: 5vh;
 }
 
 .fourth-div {
@@ -620,16 +640,19 @@ h1 {
 .fivth-div {
   background-color: #ffffff;
   min-height: 360px;
+  padding-left: 5vh;
 }
 
 .sixth-div {
-  background-color: #92909088;
+   background-color: #92909088;
   min-height: 500px;
+  
 }
 
 .seventh-div {
   background-color: #ffffff;
   min-height: 300px;
+  padding-left: 5vh;
 }
 
 .eigth-div {
@@ -640,6 +663,7 @@ h1 {
 .ninth-div {
   background-color: #ffffff;
   min-height: 300px;
+  padding-left: 5vh;
 }
 
 
@@ -697,22 +721,34 @@ h2{
   padding: 2px 0; 
   
   width: 40%;
-  margin-left: 35px;
+  margin-left: 30%;
   margin-top: 100px;
   font-size: 300%;
   line-height: 60px;
   font-weight: 100;
   font-family: 'Poppins', sans-serif;
+    display: flex;
     
   
 }
 
+.bolded {
+  font-weight: bold;
+}
 h3{
-  margin-left: 35%;
-  font-weight: 100;
+  padding-right: 10vh;
+  
+  text-decoration: underline;
+  font-weight: bold;
   font-family: 'Poppins', sans-serif;
 }
-
+button {
+  background-color: #4d4d51;
+  color: white;
+   
+  font-size: 2vh;
+  border: black;
+}
 .overlay-text {
   position: absolute;
   top: 20%; 
@@ -723,4 +759,13 @@ h3{
   padding: 10px 20px; 
   font-size: 30px; 
   text-align: center;
+}
+
+.source{
+  color: red;
+}
+
+.stipend-container{
+  font-size: 2.5vh;
+  padding: 4vh;
 }
